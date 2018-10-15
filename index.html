@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FCC Survey Form</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1 id="title">Survey</h1>
+        <p id="description">Short description about survey</p>
+    </header>
+
+    <div id="form-container">
+        <form action="" id="survey-form">
+
+            <label for="name" id="name-label">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+
+            <label for="email" id="email-label">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+
+            <label for="number" id="number-label">Age:</label>
+            <input type="number" name="age" id="number" placeholder="Enter your age" min="1" max="120">
+
+            <label for="dropdown">Role:</label>
+            <select name="framework" id="dropdown">
+                <option>Student</option>
+                <option>Backend Developer</option>
+                <option>Frontend Developer</option>
+                <option>Full Stack Developer</option>
+            </select>
+
+            <label for="platform">Wich platform do you prefer?</label>
+            <input type="radio" name="platform" id="udemy">Udemy
+            <input type="radio" name="platform" id="udacity">Udacity
+            <input type="radio" name="platform" id="pluralsight">PluralSight
+
+            <label for=""></label>
+            <input type="checkbox" name="" id="" value="Angular">
+            <input type="checkbox" name="" id="" value="Docker and Kubernetes">
+            <input type="checkbox" name="" id="" value="Electron">
+            <input type="checkbox" name="" id="" value="">
+            <input type="checkbox" name="" id="" value="">
+            <input type="checkbox" name="" id="" value="">
+            <input type="checkbox" name="" id="" value="">
+            <input type="checkbox" name="" id="" value="">
+            <input type="checkbox" name="" id="" value="React">
+            <input type="checkbox" name="" id="" value="Vue">
+
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
